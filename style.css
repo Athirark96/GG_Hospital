@@ -1,0 +1,440 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
+  font-family: inter;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.details {
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.logo {
+  display: flex;
+  gap: 20px;
+  width: 50%;
+}
+.img1 {
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
+}
+.phone {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin-left: 190px;
+  padding-left: 40px;
+  margin-right: -10%;
+}
+.email {
+  gap: 10px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-left: -40px;
+}
+.contact {
+  display: flex;
+  gap: 10px;
+
+  width: 100%;
+}
+.img2 {
+  width: 293px;
+  height: 76px;
+  padding-left: 15%;
+}
+.nav {
+  display: flex;
+  width: 100%;
+  gap: 50px;
+}
+#home {
+  color: red;
+}
+.nav-nav {
+  display: flex;
+  padding-left: 8%;
+  gap: 40px;
+  justify-content: center;
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 17px;
+}
+.content {
+  margin-left: 50px;
+  margin-right: 30px;
+  position: relative;
+}
+#img3 {
+  width: 94%;
+  height: 100%;
+  border-radius: 6px;
+}
+.content1 {
+  width: 520px;
+  height: 400px;
+  position: absolute;
+  top: 15%;
+  left: 8%;
+}
+.content1-1 {
+  font-size: 65px;
+  font-weight: 700;
+}
+.content1-2 {
+  margin-top: -20px;
+  font-weight: 400;
+  font-size: 22px;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+}
+.btn {
+  background-color: #17c1a3;
+  width: 238px;
+  height: 59px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.two {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  margin-left: 5%;
+  padding-left: 10px;
+  gap: 15px;
+  font-weight: 400;
+  font-size: 18px;
+}
+/* overall form background */
+.form-content {
+  position: relative;
+  top: -100px;
+  width: 77%;
+  left: 150px;
+  height: 280px;
+  padding-left: 30px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  padding-top: 20px;
+}
+.book {
+  font-size: 20px;
+  font-weight: 600;
+}
+/* form tag */
+form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  row-gap: 30px;
+  column-gap: 30px;
+  grid-template-rows: repeat(2, auto);
+  padding-right: 30px;
+}
+.item {
+  background-color: white;
+  padding: 20px;
+}
+.date {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+#submit {
+  background-color: #17c1a3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.dept-content {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.text1 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.link {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 9%;
+  margin-bottom: 5%;
+  color: #17c1a3;
+  text-decoration: underline;
+}
+.department {
+  margin-left: 3%;
+  margin-right: 7%;
+  margin-top: -60px;
+}
+.dept-content{
+  display: flex;
+}
+
+.department-image {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.dept-image {
+  position: relative;
+}
+
+.dept-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.doc-list {
+  margin-top: 280px;
+  margin-left: 38px;
+  margin-right: 80px;
+}
+.doctor {
+  text-align: center;
+  line-height: 8px;
+}
+.doctor-image {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 50px;
+}
+
+.text2 {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+.doct-image {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.doc-content {
+  margin-top: 20px;
+}
+.im-doc {
+  width: 350px;
+  height: 400px;
+  gap: 10px;
+}
+
+.why-GG {
+  position: relative;
+  height: 550px;
+  margin-right: 90px;
+  margin-left: 50px;
+  margin-top: 100px;
+  background-color: #f0fbff;
+}
+
+#ybg {
+  height: 550px;
+  position: relative;
+}
+
+#docnurse-img {
+  width: 740px;
+  height: 535px;
+  position: relative;
+  right: 600px;
+}
+.gg-content {
+  position: relative;
+  width: 50%;
+  height: 75%;
+  bottom: 450px;
+  left: 800px;
+}
+.gg-content-1 {
+  display: flex;
+  gap: 20px;
+  padding-left: 90px;
+}
+.facility {
+  margin-top: 250px;
+  margin-right: 105px;
+  margin-left: 50px;
+}
+
+.fac-content {
+  font-weight: 700;
+  font-size: 38px;
+  padding-left: 510px; 
+  width: 30%;
+
+}
+.facility-arrow {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+}
+
+.arrow {
+  width: 10%;
+  height: 10%;
+  margin-top: 60px;
+  padding-left: 410px;
+}
+.facility-image {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.fact-image {
+  position: relative;
+}
+
+.fact-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.interest-arrow {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 135px;
+}
+.interest {
+  position: relative;
+  margin-right: 105px;
+  margin-left: 50px;
+  margin-top: 200px;
+  bottom: 250px;
+}
+
+.int-content {
+  font-weight: 700;
+  font-size: 40px;
+   padding-left: 400px; 
+}
+.content-arrow {
+  display: flex;
+}
+
+.interest-image {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.int-image {
+  position: relative;
+}
+
+.int-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.bluebg {
+  background-color: #eaf2ff;
+  position: relative;
+  margin-top: 400px;
+}
+.subscribe {
+  background-color: white;
+  position: relative;
+  bottom: 100px;
+  width: 90%;
+  margin-left: 50px;
+  height: 323px;
+}
+.mail-content {
+  display: flex;
+  position: relative;
+  gap: 250px;
+  padding-left: 850px;
+  width: 40%;
+  bottom: 360px;
+}
+.sub-but {
+  background-color: #17c1a3;
+  border-radius: 5px;
+  width: 25%;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 30px;
+  margin-right: 20px; 
+  padding: 15px;
+}
+.footer {
+  padding-left: 100px;
+  padding-top: 50px;
+}
+.about-gg {
+  width: 15%;
+  position: relative;
+  bottom: 150px;
+  left: 750px;
+}
+.gg-one,
+.gg-two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.legal {
+  width: 17%;
+  position: relative;
+  bottom: 300px;
+  left: 1160px;
+}
+.footer-details {
+  display: flex;
+  margin-top: -230px;
+}
+
+.footer-addr {
+  width: 25%;
+}
+.icon-detail {
+  display: flex;
+  gap: 10px;
+  
+}
+.footer-cont {
+  width: 15%;
+  padding-left: 80px;
+}
+.footer-email {
+  width: 20%;
+  padding-left: 15px;
+}
+.social-media {
+  position: relative;
+  left: 100px;
+  bottom: 15px;
+}
+.social-icon {
+  display: flex;
+  gap: 30px;
+}
